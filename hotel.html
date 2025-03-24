@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background: #3b5998;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: #4c70ba;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content Section */
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            font-size: 28px;
+            color: #3b5998;
+        }
+
+        section p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .room-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .room-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .room-card .room-details {
+            padding: 15px;
+        }
+
+        .room-card h3 {
+            margin-bottom: 10px;
+            color: #3b5998;
+        }
+
+        .room-card p {
+            margin-bottom: 10px;
+        }
+
+        .room-card button {
+            background: #3b5998;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .room-card button:hover {
+            background: #2e4888;
+        }
+
+        /* Footer */
+        footer {
+            background: #3b5998;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Luxury Stays</h1>
+        <p>Book your perfect stay with us</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#rooms">Rooms</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Available Rooms Section -->
+    <section id="rooms">
+        <h2>Available Rooms</h2>
+        <div class="room-card">
+
+            <div class="room-details">
+                <h3>Deluxe Room</h3>
+                <p>Spacious room with a king-size bed and stunning views.</p>
+                <p>Price: rs 2,000/night</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+        <div class="room-card">
+
+            <div class="room-details">
+                <h3>Executive Suite</h3>
+                <p>Luxurious suite with separate living area and modern amenities.</p>
+                <p>Price: rs 3,500/night</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities">
+        <h2>Our Amenities</h2>
+        <p>- Free Wi-Fi</p>
+        <p>- Swimming Pool</p>
+        <p>- Fitness Center</p>
+        <p>- In-house Restaurant</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@luxurystays.com</p>
+        <p>Phone: +91 123456789</p>
+        <p>Address: kothrud pune</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Luxury Stays. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

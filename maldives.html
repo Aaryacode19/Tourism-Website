@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Maldives</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: black;
+            color: white;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(45deg, #00c6ff, #0072ff);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        /* Places Section */
+        .places {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .places h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .place-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            font-size: 24px;
+            margin: 15px 0;
+        }
+
+        .card p {
+            padding: 0 15px 15px;
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background: #0072ff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #00c6ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Discover Maldives</h1>
+        <p>Explore the tranquil beauty of tropical paradise</p>
+    </header>
+
+    <!-- Places Section -->
+    <section class="places">
+        <h2>Top Destinations in Maldives</h2>
+        <div class="place-cards">
+            <!-- Maafushi Island -->
+            <div class="card">
+                <img src="mafashu island.jpeg" alt="Maafushi Island">
+                <h3>Maafushi Island</h3>
+                <p>Experience local culture and stunning beaches on this vibrant island.</p>
+            </div>
+            <!-- Vaadhoo Island -->
+            <div class="card">
+                <img src="vadho island.jfif" alt="Vaadhoo Island">
+                <h3>Vaadhoo Island</h3>
+                <p>Witness the magical glowing waters of the Sea of Stars.</p>
+            </div>
+            <!-- Baros Maldives -->
+            <div class="card">
+                <img src="baro islansd.jpeg"alt="Baros Maldives">
+                <h3>Baros Maldives</h3>
+                <p>Stay at a luxurious resort surrounded by turquoise waters.</p>
+            </div>
+            <!-- Banana Reef -->
+            <div class="card">
+                <img src="banana reef.jfif" alt="Banana Reef">
+                <h3>Banana Reef</h3>
+                <p>Dive into the vibrant marine life of one of the most popular dive sites.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Discover Maldives. All rights reserved. Contact us at: <a
+                href="mailto:info@discovermaldives.com">info@discovermaldives.com</a></p>
+    </footer>
+</body>
+
+</html>

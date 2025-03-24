@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Kyoto</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: black;
+            color: white;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(45deg, #ff9800, #f44336);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        /* Places Section */
+        .places {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .places h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .place-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            font-size: 24px;
+            margin: 15px 0;
+        }
+
+        .card p {
+            padding: 0 15px 15px;
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #ff9800;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Discover Kyoto</h1>
+        <p>Experience the cultural and historical beauty of Kyoto</p>
+    </header>
+
+    <!-- Places Section -->
+    <section class="places">
+        <h2>Must-Visit Places in Kyoto</h2>
+        <div class="place-cards">
+            <!-- Kinkaku-ji -->
+            <div class="card">
+                <img src="WhatsApp Image 2025-03-24 at 8.10.57 PM.jpeg" alt="Kinkaku-ji">
+                <h3>Kinkaku-ji</h3>
+                <p>The Golden Pavilion, a Zen temple with stunning architecture and gardens.</p>
+            </div>
+            <!-- Fushimi Inari Taisha -->
+            <div class="card">
+                <img src="wh.jpeg" alt="Fushimi Inari Taisha">
+                <h3>Fushimi Inari Taisha</h3>
+                <p>Famous for its thousands of red torii gates winding up the mountain.</p>
+            </div>
+            <!-- Arashiyama Bamboo Grove -->
+            <div class="card">
+                <img src="WhatsApp Image 2025-03-24 at 8.07.45 PM (1).jpeg" alt="Arashiyama Bamboo Grove">
+                <h3>Arashiyama Bamboo Grove</h3>
+                <p>Walk through towering bamboo stalks in a serene atmosphere.</p>
+            </div>
+            <!-- Gion District -->
+            <div class="card">
+                <img src="WhatsApp Image 2025-03-24 at 8.07.45 PM.jpeg" alt="Gion District">
+                <h3>Gion District</h3>
+                <p>A historic area known for its traditional tea houses and geisha culture.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Discover Kyoto. All rights reserved. Contact us at: <a
+                href="mailto:info@discoverkyoto.com">info@discoverkyoto.com</a></p>
+    </footer>
+</body>
+
+</html>

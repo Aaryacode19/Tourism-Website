@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f0f8ff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Navigation */
+        nav {
+            background: #007bff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            margin-bottom: 10px;
+            font-size: 28px;
+            color: #0056b3;
+        }
+
+        section p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .booking-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .booking-form input,
+        .booking-form select,
+        .booking-form button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .booking-form button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        .booking-form button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            background: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Flight Booking</h1>
+        <p>Book your next adventure with ease.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#book">Book a Flight</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- Booking Section -->
+    <section id="book">
+        <h2>Book Your Flight</h2>
+        <form class="booking-form">
+            <label for="from">From:</label>
+            <input type="text" id="from" placeholder="Enter departure city" required>
+
+            <label for="to">To:</label>
+            <input type="text" id="to" placeholder="Enter destination city" required>
+
+            <label for="date">Departure Date:</label>
+            <input type="date" id="date" required>
+
+            <label for="passengers">Passengers:</label>
+            <select id="passengers" required>
+                <option value="1">1 Passenger</option>
+                <option value="2">2 Passengers</option>
+                <option value="3">3 Passengers</option>
+                <option value="4">4 Passengers</option>
+            </select>
+
+            <button type="submit">Search Flights</button>
+        </form>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <p>Explore our top destinations for your next trip.</p>
+        <ul>
+            <li>New York</li>
+            <li>Paris</li>
+            <li>Tokyo</li>
+            <li>Dubai</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@flightbooking.com</p>
+        <p>Phone: +91 123456789</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Flight Booking. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
